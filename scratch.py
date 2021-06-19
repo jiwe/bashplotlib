@@ -7,6 +7,8 @@ width = 10
 char = 'x'
 color = 'default'
 title = 'My Test Graph'
+xtitle = 'My X Axis'
+ytitle = 'My Y Axis'
 
 plot_scatter(
     None,
@@ -15,4 +17,6 @@ plot_scatter(
     width,
     char,
     color,
-    title)
+    title,
+    xtitle,
+    ytitle)
